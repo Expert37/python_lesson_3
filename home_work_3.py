@@ -1,0 +1,1 @@
+text = open('C:\Users\Светлана\Desktop\123\text_3.txt','r',encoding='UTF-8')
