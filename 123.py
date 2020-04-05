@@ -16,4 +16,5 @@ print(type(new_temp_str), new_temp_str)
 print()
 
 print('4) получить из list пункта 3 dict, ключами которого являются слова, а значениями их количество появлений в тексте;')
-
+#dict_temp = dict.new_temp_str
+#print(type(dict_temp))
