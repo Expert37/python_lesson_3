@@ -24,12 +24,11 @@ print(type(temp_dict),temp_dict)
 print()
 
 print('5) вывести 5 наиболее часто встречающихся слов (sort), вывести количество разных слов в тексте (set).')
+a = list(temp_dict.items())
+a.sort(key=lambda i: i[1],reverse=True)
+for i in a[0:5]:
+    print(i[0], ':', i[1])
 
+temp_set = set(new_text)
+print('Количество разных слов в тексте',':',len(temp_set))
 
-
-
-
-
-
-
-#text.close()
